@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Selectlover | As Melhores Acomponhantes da Europa</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+</head>
+<body>
+  <header id="sl__header">
+    <div class="container">
+      <div class="container-inner">
+        <div class="content">
+          
+          <h1 class="sl__brand"><img src="./assets/images/sl__logotipo_horiz.png" alt=""></h1>
+          <!-- #END BRANDING -->
+          
+          <div class="sl__search">
+            <form class="sl__search--form">
+              <input type="text" placeholder="Procure a sua melhor companhia.." size="150">
+              <button><i class="fas fa-search fa-lg"></i></button>
+            </form>
+          </div>
+          <!-- #END SEARCHING -->
+
+          <div class="sl__language">
+            <select class="sl__language--list">
+              <option class="sl__language--item">Selecione seu idioma</option>
+              <option class="sl__language--item">pt</option>
+              <option class="sl__language--item">br</option>
+              <option class="sl__language--item">en</option>
+              <option class="sl__language--item">es</option>
+              <option class="sl__language--item">it</option>
+              <option class="sl__language--item">ge</option>
+            </select>
+          </div>
+          <!-- #END LANGUAGE -->
+        
+        </div>
+
+        <nav class="sl__navmenu--local">
+          <ul class="sl__local--list">
+            <li class="sl__local--item" ><a class="sl__local--link" href="">Lisboa</a></li>
+            <li class="sl__local--item" ><a class="sl__local--link" href="">Porto</a></li>
+            <li class="sl__local--item" ><a class="sl__local--link" href="">Centro</a></li>
+            <li class="sl__local--item" ><a class="sl__local--link" href="">Algarve</a></li>
+            <li class="sl__local--item" ><a class="sl__local--link" href="">Braga</a></li>
+            <li class="sl__local--item" ><a class="sl__local--link" href="">Ilhas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- <div class="container navmenu--bg">
+      <div class="container-inner">
+        <div class="content">
+          
+        </div>
+      </div>
+    </div> -->
+  </header>
+  <!-- #END HEADER -->
+  <section id="sl__hero">
+    <div class="container">
+      <div class="container-inner">
+        <div class="content">
+            <div id="sl__companion--filter">
+              <h3><i class="fas fa-filter fa-lg"></i>
+                Filtrar Acompanhantes</h3>
+              <div class="sl__filters">
+                <div class="col-filter">
+                  <div class="radio-group-filter">
+                    <h5>Idade:</h5>
+                      <input id="young" name="age" type="radio" checked/>
+                      <label for="young">18-24 anos </label>
+                      <!-- radio -->
+                    
+                      <input id="adult" name="age" type="radio"/>
+                      <label for="adult">24-30 anos</label>
+                      <!-- radio -->
+                    
+                      <input id="old" name="age" type="radio"/>
+                      <label for="old">+30 anos</label>
+                      <!-- radio -->
+                  </div>
+                  <!-- filter age -->
+                  
+                  <div class="select-filter">
+                    <h5>Sexo:</h5>
+                    <select name="" id="">
+                      <option value="">Selecione o sexo</option>
+                      <option value="">Homens</option>
+                      <option value="">Mulheres</option>
+                      <option value="">Todos</option>
+                    </select>
+                  </div>
+                  <!-- filter nationality -->
+                </div>
+                <!-- end col-filter -->
+      
+                <div class="col-filter">
+                  <div class="radio-group-filter">
+                    <h5>Atendimento a:</h5>
+                      <input id="woman" name="attendance" type="radio" checked/>
+                      <label for="woman">Homens</label>
+                      <!-- radio -->
+                    
+                      <input id="man" name="attendance" type="radio"/>
+                      <label for="man">Mulheres</label>
+                      <!-- radio -->
+                    
+                      <input id="couples" name="attendance" type="radio"/>
+                      <label for="couples">Casais</label>
+                      <!-- radio -->
+                  </div>
+                  <!-- filter age -->
+                  <div class="select-filter">
+                    <h5>Nacionalidade:</h5>
+                    <select name="" id="">
+                      <option value="">Selecione a Nacionalidade</option>
+                      <option value="">Brasileira</option>
+                      <option value="">Portuguesa</option>
+                      <option value="">Espanhola</option>
+                      <option value="">Porto Riquenha</option>
+                    </select>
+                  </div>
+                  <!-- filter nationality -->
+                </div>
+                <!-- end col-filter -->
+      
+                <div class="col-filter">
+                  <div class="radio-group-filter">
+                    <h5>Local de atendimento:</h5>
+                      <input id="private" name="local" type="checkbox" checked/>
+                      <label for="private">Apartamento privado </label>
+                      <!-- radio -->
+                    
+                      <input id="displacement" name="local" type="checkbox"/>
+                      <label for="displacement">Deslocações</label>
+                      <!-- radio -->
+
+                    </div>
+                    <div class="select-filter">
+                      <h5>Ocasiões Especiais:</h5>
+                      <select name="" id="">
+                        <option value="">Selecione a Ocasião</option>
+                        <option value="">Festas</option>
+                        <option value="">Jantar</option>
+                        <option value="">Viagem</option>
+                      </select>
+                    </div>
+                    <!-- filter age -->
+                 
+                  <!-- filter nationality -->
+                </div>
+                <!-- end col-filter -->
+                <div class="button-filter">
+                  <button>Filtrar acompanhante</button>
+                </div>
+              </div>
+              <!-- end filters -->
+            </div>
+          <!-- <div class="sl__salutation">
+            <h1 class="sl__salutation--title">Se depender dá gente você nunca ficará sozinho..</h1>
+          </div> -->
+          <!-- #END SALUTATION -->
+          <!-- <div class="sl__local--list">
+            <div class="sl__local--item">
+              <img class="sl__local--image" src="./assets/images/lisboa.jpg" alt="">
+              <h5 class="sl__local--title"><i class="fas fa-map-marker-alt fa-1x"></i>Lisboa</h5>
+            </div>
+                        
+            <div class="sl__local--item">
+                <img class="sl__local--image" src="./assets/images/porto.jpg" alt="">
+                <h5 class="sl__local--title"><i class="fas fa-map-marker-alt fa-1x"></i>Porto</h5>
+            </div>
+                          
+            <div class="sl__local--item">
+              <img class="sl__local--image" src="./assets/images/centro.jpg" alt="">
+              <h5 class="sl__local--title"><i class="fas fa-map-marker-alt fa-1x"></i>Centro</h5>
+            </div>
+                          
+            <div class="sl__local--item">
+              <img class="sl__local--image" src="./assets/images/lisboa.jpg" alt="">
+              <h5 class="sl__local--title"><i class="fas fa-map-marker-alt fa-1x"></i>Algarve</h5>
+            </div>
+                          
+            <div class="sl__local--item">
+                <img src="./assets/images/porto.jpg" alt="">
+                <h5 class="sl__local--title"><i class="fas fa-map-marker-alt fa-1x"></i>Braga</h5>
+            </div>
+                            
+            <div class="sl__local--item">
+              <img class="sl__local--image" src="./assets/images/centro.jpg" alt="">
+              <h5 class="sl__local--title"><i class="fas fa-map-marker-alt fa-1x"></i>Ilhas</h5>
+            </div>
+          </div> 
+          #END LOCAL-->
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- #END HERO -->
+
+  <section id="sl__companions" class="highlights">
+    <div class="container">
+      <div class="container-inner">
+        
+        <div class="content">
+          <div class="heading">
+            <h3>Destaque da semana</h3>  
+          </div>
+
+          <div class="sl__companions--list">
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="super--highlights">Super Destaque</div>
+                  <img src="./assets/images/01.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality">
+                    <img src="./assets/images/brasil.png" alt="brasil">
+                  </div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>
+            </div>              
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/02.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/espanha.png" alt="espanha"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/04.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/usa.png" alt="usa"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/01.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/portugal.png" alt="portugal"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/02.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/franca.png" alt="franca"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/04.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/italia.png" alt="italia"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/image-default.png" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/usa.png" alt="usa"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+  
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image highlights">
+                  <div class="highlights">Destaque</div>
+                  <img src="./assets/images/01.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/italia.png" alt="italia"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>         
+            </div>
+            <!-- end item compasion -->
+
+          </div>
+          <!-- end list -->
+        </div>
+        <!-- end content -->
+
+      </div>
+      <!-- end container inner -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- #END HIGHLIGHTS -->
+
+  <section id="sl__companions" class="lastadded">
+    <div class="container">
+      <div class="container-inner">
+        
+        <div class="content">
+          <div class="heading">
+            <h3>Últimas Inclusos</h3>  
+          </div>
+          <div class="sl__companions--list">
+
+            <div class="sl__companion--item">
+              <a href="https://selectlover.com/beta/profile.html" class="sl__companion--link">
+                <figure class="sl__companion--image">
+                  <img src="./assets/images/01.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                    <small>Acompanhante</small>
+                    Kelly Andrade
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/brasil.png" alt="brasil"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Centro</small>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image">
+                  <img src="./assets/images/02.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                    <small>Acompanhante</small>
+                    Kelly Andrade
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/brasil.png" alt="brasil"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Centro</small>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image ">
+                  <img src="./assets/images/04.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                    <small>Acompanhante</small>
+                    Kelly Andrade
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/franca.png" alt="franca"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Centro</small>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end item compasion -->
+
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image">
+                  <img src="./assets/images/image-default.png" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                    <small>Acompanhante</small>
+                    Kelly Andrade
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/portugal.png" alt="portugal"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Centro</small>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- end item compasion -->
+
+          </div>
+        </div>
+        <!-- end content -->
+
+      </div>
+    </div>
+  </section>
+  <!-- #END LAST ADDED ALL -->
+
+  <section id="sl__companions">
+    <div class="container">
+      <div class="container-inner">
+        
+        <div class="content">
+          <div class="heading">
+            <h3>Acompanhantes</h3>  
+          </div>
+          <div class="sl__companions--list">
+            <div class="sl__companion--item">
+              <a href="#" class="sl__companion--link">
+                <figure class="sl__companion--image default">
+                  <img src="./assets/images/01.jpg" alt="">
+                </figure>
+                <div class="sl__companion--meta">
+                  <h3 class="sl__companion--meta title">
+                      <small>Acompanhante</small>
+                      Adriana Alves
+                  </h3>
+                  <div class="sl__companion--meta nationality"><img src="./assets/images/brasil.png" alt="brasil"></div>
+                  <div class="sl__companion--meta region"> 
+                    <i class="fas fa-map-marker-alt fa-1x"></i>
+                    <small>Lisboa</small>
+                  </div>
+                </div>
+              </a>
+            </div>              
+            <!-- end item compasion -->
+          </div>
+        </div>
+        <!-- end content -->
+
+      </div>
+    </div>
+  </section>
+  <!-- #END COMPANIONS ALL -->
+
+  <footer>
+    <div class="container">
+      <div class="container-inner">
+        <div class="content">
+          <div class="social-network">
+            <a href="#facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="#instagram"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+          <article>
+            <p><small>Todos os direitos reservado</small> | <strong>selectlover.com</strong></p>
+            <small>Política de Privacidade</small>
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end compasions -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
