@@ -1,0 +1,23 @@
+#sl__gallery {
+  background: #1a1a1a;
+  padding: 40px 0;
+}
+#sl__gallery img {
+  display: block;
+  max-width: 100%;
+}
+#sl__gallery .slide--wrapper {
+  overflow: hidden;
+}
+#sl__gallery .slide--gallery {
+  display: flex;
+}
+#sl__gallery .photo {
+  width: 80vw;
+  flex-shrink: 0;
+  max-width: 800px;
+  margin: 0 20px;
+}
+#sl__gallery .photo img {
+  border-radius: 10px;
+}
